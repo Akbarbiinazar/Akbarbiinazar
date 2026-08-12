@@ -26,7 +26,7 @@ Telegram, PDFs), plus driver/dispatcher revenue automation and Telegram bot inte
 `React · Next.js · TypeScript · NestJS · LLM pipelines`
 *Private product, internal admin panel only. Happy to demo on a call.*
 
-**Throughline** *(in progress)* — An AI platform that maintains a startup's decision
+**[Throughline](https://throughline-beryl.vercel.app/)** *(in progress)* — An AI platform that maintains a startup's decision
 registry and generates task specs from it, with every field traced back to its source.
 Provenance is enforced as an architectural constraint, so the model structurally cannot
 fabricate a citation. Business invariants live in the database schema, not in the prompt.
