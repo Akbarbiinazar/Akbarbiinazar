@@ -13,7 +13,7 @@ I care about shipping things people actually use, not demos.
 
 ### What I'm building
 
-**[Fibe]([https://fibe.pro/](https://play.google.com/store/apps/details?id=fibe.pro.application))** — Event-discovery product for Kyrgyzstan. Grew it from 0 to
+**[Fibe](https://apps.apple.com/app/fibe/id6761101346)** — Event-discovery product for Kyrgyzstan. Grew it from 0 to
 **900+ users organically**, with no paid marketing. Built the NestJS backend, the
 interactive map system with event pins tied to real locations, and real-time event
 flows; delivered the marketing site and organizer admin panel in React.
