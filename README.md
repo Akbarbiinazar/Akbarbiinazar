@@ -1,7 +1,7 @@
 ## Hi, I'm Akbar 👋
 
-Full-stack engineer with 4+ years in production. Frontend is where I'm deepest
-(React, TypeScript, Next.js), and I build the backend behind it myself on NestJS.
+Full-stack engineer with 4+ years in production, specializing in React/Next.js and TypeScript 
+with production backend experience in NestJS and PostgreSQL.
 Lately most of my work involves AI: building LLM features that stay reliable in
 production, and automating the work around them.
 
@@ -14,7 +14,7 @@ I care about shipping things people actually use, not demos.
 ### What I'm building
 
 **[Fibe](https://apps.apple.com/app/fibe/id6761101346)** — Event-discovery product for Kyrgyzstan. Grew it from 0 to
-**900+ users organically**, with no paid marketing. Built the NestJS backend, the
+**1000+ users organically**, with no paid marketing. Built the NestJS backend, the
 interactive map system with event pins tied to real locations, and real-time event
 flows; delivered the marketing site and organizer admin panel in React.
 `NestJS · React · TypeScript · interactive maps · dynamic OG generation`
@@ -31,6 +31,9 @@ registry and generates task specs from it, with every field traced back to its s
 Provenance is enforced as an architectural constraint, so the model structurally cannot
 fabricate a citation. Business invariants live in the database schema, not in the prompt.
 `Next.js 15 · TypeScript · Postgres + pgvector · Drizzle · Anthropic API`
+
+Sales & Marketing CRM — Multi-tenant CRM for sales teams: configurable pipelines, deals, contacts, appointments, custom fields, role-based access, and real-time updates. Designed business-critical workflows around deal lifecycle — including mandatory loss reasons, admin-only reopening of closed deals, optimistic locking, and audit history.
+`Next.js 15 · React 19 · TypeScript · NestJS · Prisma · PostgreSQL · WebSockets`
 
 ---
 
