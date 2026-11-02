@@ -1,20 +1,16 @@
 ## Hi, I'm Akbar 👋
 
-Full-stack engineer with 4+ years in production, specializing in React/Next.js and TypeScript 
-with production backend experience in NestJS and PostgreSQL.
-Lately most of my work involves AI: building LLM features that stay reliable in
-production, and automating the work around them.
+I'm a Fullstack Engineer with 4+ years of commercial experience building production applications with React, Next.js, TypeScript, NestJS, and PostgreSQL. My recent work includes AI-powered features for insurance analytics, customer conversations, and document processing.
+I work across frontend, backend, integrations, and delivery. I use AI coding agents to move faster, but I write the implementation plan, review generated changes and tests, and verify behavior before release.
 
-I care about shipping things people actually use, not demos.
-
-📍 Bishkek, Kyrgyzstan · open to remote · UTC+6 (good overlap with EU, flexible for US hours)
+📍 Bishkek, Kyrgyzstan · UTC+6 · Open to remote Fullstack / AI Engineer and Software Engineer roles
 
 ---
 
 ### What I'm building
 
 **[Fibe](https://apps.apple.com/app/fibe/id6761101346)** — Event-discovery product for Kyrgyzstan. Grew it from 0 to
-**1000+ users organically**, with no paid marketing. Built the NestJS backend, the
+**1200+ users organically**, with no paid marketing. Built the NestJS backend, the
 interactive map system with event pins tied to real locations, and real-time event
 flows; delivered the marketing site and organizer admin panel in React.
 `NestJS · React · TypeScript · interactive maps · dynamic OG generation`
@@ -32,8 +28,30 @@ Provenance is enforced as an architectural constraint, so the model structurally
 fabricate a citation. Business invariants live in the database schema, not in the prompt.
 `Next.js 15 · TypeScript · Postgres + pgvector · Drizzle · Anthropic API`
 
-Sales & Marketing CRM — Multi-tenant CRM for sales teams: configurable pipelines, deals, contacts, appointments, custom fields, role-based access, and real-time updates. Designed business-critical workflows around deal lifecycle — including mandatory loss reasons, admin-only reopening of closed deals, optimistic locking, and audit history.
-`Next.js 15 · React 19 · TypeScript · NestJS · Prisma · PostgreSQL · WebSockets`
+Sales & Marketing CRM — multi-tenant platform & WhatsApp AI assistant | Independent / Contract
+Built a multi-tenant CRM for sales teams, including pipelines, deals, contacts, appointments, custom fields, permissions, analytics, and WhatsApp integration. Extended the system with an AI assistant for customer conversations, released to client environments after pilot testing and fixes.
+- Built a WhatsApp-based conversational AI assistant that answers initial customer questions from the company's published services, business details, and FAQ. Company admins can configure its name, greeting, and communication style.
+- Supported Russian and Kyrgyz conversation flows, with language selection based on the customer's messages. Real-world Kyrgyz dialogue quality requires continued evaluation.
+- Implemented lead qualification with configurable questions, and CRM updates for permitted contact/deal fields while preserving existing custom-field values.
+- Connected the assistant to real appointment availability: it can suggest available slots and create an appointment only after the customer confirms a specific time. The backend generates the final appointment confirmation.
+- Added human handoff: automation stops, an employee notification is created, and an actionable task can be assigned when someone is available.
+- Kept critical actions under server-side validation: permissions, available appointment slots, and booking operations are enforced in application code rather than trusted to model instructions.
+- Built AI evaluation and monitoring workflows, measured conversation/model usage, identified failures in intent handling and appointment booking, corrected those issues, and rolled out the assistant to clients.
+Stack: Next.js · React · TypeScript · NestJS · PostgreSQL · Prisma · WebSockets · WhatsApp
+
+AI & reliability: Conversational AI · LLM Integration · CRM Integration · Tool Calling · Intent Handling · AI Evals · Human-in-the-Loop · Server-Side Validation · Production Monitoring
+
+Commercial product; source code and customer conversations are private.
+
+Insurance platform — architecture modernization & AI analytics | Entwicklerburg (Staff-Eye Group)
+Worked on an insurance platform and initiated an architectural refactor to support the product's next stage of development.
+- Proposed a monorepo structure and Feature-Sliced Design (FSD) for the frontend, with clearer boundaries between application features and shared code.
+- Considered future AI integrations during the architectural redesign, making it easier to introduce and coordinate AI capabilities without tightly coupling them to the UI.
+- Added a Retrieval-Augmented Generation (RAG) capability and an AI chatbot for insurance data analytics, enabling users to explore insurance-related information through natural-language questions.
+- Worked across architecture, frontend, and backend integration to bring the AI experience into the existing application.
+Focus: System Architecture · Monorepo · Feature-Sliced Design · RAG · LLM Integration · Conversational AI · Insurance Analytics
+
+Client project; implementation details and source code are not public.
 
 ---
 
